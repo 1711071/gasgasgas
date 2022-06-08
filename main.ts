@@ -1,5 +1,4 @@
 input.onButtonPressed(Button.A, function () {
-    music.playTone(196, music.beat(BeatFraction.Quarter))
     music.playTone(220, music.beat(BeatFraction.Quarter))
     music.playTone(262, music.beat(BeatFraction.Quarter))
     music.playTone(220, music.beat(BeatFraction.Quarter))
@@ -59,11 +58,12 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(200)
     basic.pause(200)
     basic.pause(200)
+    music.playTone(196, music.beat(BeatFraction.Quarter))
 })
 input.onButtonPressed(Button.AB, function () {
     music.playTone(220, music.beat(BeatFraction.Half))
     music.playTone(262, music.beat(BeatFraction.Half))
-    music.playTone(277, music.beat(BeatFraction.Half))
+    music.playTone(294, music.beat(BeatFraction.Half))
     music.playTone(311, music.beat(BeatFraction.Half))
     music.playTone(294, music.beat(BeatFraction.Half))
     music.playTone(262, music.beat(BeatFraction.Half))
