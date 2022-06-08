@@ -1,4 +1,5 @@
 input.onButtonPressed(Button.A, function () {
+    music.playTone(196, music.beat(BeatFraction.Whole))
     music.playTone(220, music.beat(BeatFraction.Quarter))
     music.playTone(262, music.beat(BeatFraction.Quarter))
     music.playTone(220, music.beat(BeatFraction.Quarter))
